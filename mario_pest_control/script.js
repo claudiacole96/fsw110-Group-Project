@@ -16,3 +16,5 @@ The number of baddies caught will be entered into their input fields. Each baddi
 Total Price
     This will be dynamic, depending on how many baddies were caught.
 */
+
+// my js
