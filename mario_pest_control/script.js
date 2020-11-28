@@ -17,9 +17,16 @@ Total Price
     This will be dynamic, depending on how many baddies were caught.
 */
 
-const goomba = document.getElementById("goomba").value;
-const bobOmb = document.getElementById("bobomb").value;
-const cheepEep = document.getElementById("cheep").value;
+const totalButton = document.getElementById("myTotal");
+totalButton.addEventListener("click", totalPrice);
 
-let total = document.getElementById("inputTotal");
+function totalPrice(goomba, bobOmb, cheepEep) {
+    const goomba = document.getElementById("goomba").value;
+    const bobOmb = document.getElementById("bobomb").value;
+    const cheepEep = document.getElementById("cheep").value;
 
+    let result = document.getElementById("inputTotal");
+    let total = (goomba * 5) + (bobOmb * 7) + (cheepEep * 11);
+
+    result.innerHTML += `${total} COINS`;
+}
