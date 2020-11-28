@@ -17,4 +17,9 @@ Total Price
     This will be dynamic, depending on how many baddies were caught.
 */
 
-// my js
+const goomba = document.getElementById("goomba").value;
+const bobOmb = document.getElementById("bobomb").value;
+const cheepEep = document.getElementById("cheep").value;
+
+let total = document.getElementById("inputTotal");
+
