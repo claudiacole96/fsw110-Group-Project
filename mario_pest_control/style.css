@@ -8,3 +8,196 @@ Peach so he can send her a bill.
 Build the Mario Pest Control website to be responsive, meaning it looks great when 
 shrunk down to the screen size of a smartphone.
 */
+body {
+  background-color: rgb(28, 0, 189);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+header {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 6px 3px steelblue;
+}
+
+
+
+.goombaimg {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 6px 3px black;
+}
+
+#img1 {
+  height: 175px;
+  width: 175px;
+}
+
+#img2 {
+  height: 175px;
+  width: 175px;
+}
+
+#img3 {
+  height: 175px;
+  width: 175px;
+}
+
+.bobimg {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 6px 3px black;
+}
+
+.cheepimg {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 6px 3px black;
+}
+
+#price-total {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: red;
+  border-radius: 16px;
+  box-shadow: 6px 3px black;
+}
+
+#total {
+  margin-bottom: 0;
+}
+
+footer {
+  font-size: 8px;
+  text-align: center;
+  color: red;
+  background-color: rgb(28, 0, 189);
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 1100px){
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  header {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 6px 3px steelblue;
+  }
+  
+  
+  
+  
+  #img1 {
+    height: 300px;
+    width: 300px;
+  }
+  
+  #img2 {
+    height: 300px;
+    width: 300px;
+  }
+  
+  #img3 {
+    height:300px;
+    width: 300px;
+    
+  }
+  
+  .goombaimg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    border-radius: 16px;
+    box-shadow: 6px 3px black;
+  }
+
+  .bobimg {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    border-radius: 16px;
+    box-shadow: 6px 3px black;
+  }
+  
+  .cheepimg {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    border-radius: 16px;
+    box-shadow: 6px 3px black;
+  }
+  
+  #price-total {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: red;
+    border-radius: 16px;
+    box-shadow: 6px 6px black;
+  }
+  
+  #inputTotal {
+    text-align: center;
+  }
+  #total {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    font-size: 8px;
+    color: red;
+    background-color: rgb(28, 0, 189);
+    margin-top: 10px;
+    padding: 0;
+  }
+}
