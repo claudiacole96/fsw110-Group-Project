@@ -9,7 +9,6 @@ function totalPrice() {
     const cheepEep = parseInt(document.getElementById("cheep").value);
     
     let result = document.getElementById("inputTotal");
-    let total = (goomba * 5) + (bobOmb * 7) + (cheepEep * 11);
-
+    let total =  (goomba * 5) + (bobOmb * 7) + (cheepEep * 11);
     result.innerHTML = `${total} COINS`;
 }
